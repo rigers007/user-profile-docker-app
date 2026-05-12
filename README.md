@@ -1,38 +1,40 @@
-User Profile Docker App
+# 🚀 User Profile Docker App
 
-A simple full-stack containerized web application built with Node.js, Express, MongoDB, Docker, and AWS ECR.
+A full-stack containerized web application built using Node.js, Express, MongoDB, Docker, and AWS ECR.
 
-Project Overview
+This project allows users to edit and store profile information while tracking all profile changes inside MongoDB.
 
-This project allows users to:
+---
 
-View a user profile
-Edit profile information
-Save profile changes into MongoDB
-Track profile update history
-Run the entire application using Docker containers
+# 📌 Features
 
-The application was containerized using Docker and deployed through a private AWS Elastic Container Registry (ECR).
+✅ Editable user profile interface  
+✅ Persistent MongoDB storage  
+✅ Profile update history tracking  
+✅ Docker containerization  
+✅ Multi-container environment using Docker Compose  
+✅ AWS ECR private registry integration  
+✅ Mongo Express database management interface  
 
-Technologies Used
-Node.js
-Express.js
-MongoDB
-Mongo Express
-Docker
-Docker Compose
-AWS ECR
-Git & GitHub
-Features
-Editable user profile interface
-Persistent MongoDB storage
-Automatic profile update history tracking
-Mongo Express database visualization
-Multi-container Docker environment
-AWS private container registry integration
-Project Structure
+---
+
+# 🛠️ Technologies Used
+
+- Node.js
+- Express.js
+- MongoDB
+- Mongo Express
+- Docker
+- Docker Compose
+- AWS ECR
+- Git & GitHub
+
+---
+
+# 📂 Project Structure
+
+```bash
 user-profile-app/
-│
 ├── Dockerfile
 ├── docker-compose.yml
 ├── my-app.yaml
@@ -42,41 +44,17 @@ user-profile-app/
 ├── style.css
 ├── index.html
 └── .gitignore
-Docker Workflow
-Build Docker Image
-docker build -t my-app:1.0 .
-Run Containers
-docker compose -f my-app.yaml up
-Push Image to AWS ECR
-docker push <your-ecr-repository-url>
-MongoDB Collections
-users
 
-Stores the current user profile.
+🔥 Future Improvements
+Add authentication system
+Implement CI/CD pipeline
+Deploy on AWS EC2 or Kubernetes
+Improve frontend UI/UX
+Add responsive design
 
-profile_changes
-
-Stores all profile update history entries.
-
-Learning Outcomes
-
-Through this project I gained hands-on experience with:
-
-Docker containerization
-Docker Compose orchestration
-AWS ECR image management
-MongoDB integration
-Full-stack application deployment workflows
-Git & GitHub version control
-Future Improvements
-Add user authentication
-Implement REST API validation
-Add CI/CD pipeline with GitHub Actions
-Deploy application on AWS EC2 or Kubernetes
-Add responsive frontend design
-Author
+👨‍💻 Author
 
 Rigers Maja
 
 GitHub: https://github.com/rigers007
-LinkedIn: https://www.linkedin.com
+Linkedin : 
