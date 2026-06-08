@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Get the author of the action
-        run: echo "The author of the action is ${{github.author}}"
+        run: echo "The author of the action is ${{github.actor}}"
