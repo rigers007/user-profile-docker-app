@@ -14,3 +14,8 @@ jobs:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         issue-message: "Message that will be displayed on users' first issue"
         pr-message: "Message that will be displayed on users' first pull request"
+    action-author:
+      runs-on: ubuntu-latest
+      steps:
+      - name: Get the author of the action
+        run: echo "The author of the action is ${{github.action}}"
