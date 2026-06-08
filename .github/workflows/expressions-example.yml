@@ -1,0 +1,10 @@
+name: Expressions-example
+
+on: [push, pull_request_target,]
+
+jobs:
+  get-author:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get the author of the action
+        run: echo "The author of the action is ${{github.author}}"
